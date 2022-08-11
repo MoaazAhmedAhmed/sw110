@@ -5,13 +5,13 @@ int main()
 		int x;
 		cin >> x;
 
-		if (x%5 == 0)
+		if (x<=5||x>15)
 		{
-			cout << " multiple of 5";
+			cout << " accepted ";
 		}
 		else
 		{
-			cout << "not multiple of 5";
+			cout << "not accepted";
 		}
 
 	}
